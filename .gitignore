@@ -1,0 +1,16 @@
+# Local planning document; keep it out of commits and pull requests.
+/plan.md
+/whats_done.md
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies and generated output
+node_modules/
+backend/src/generated/prisma/
+backend/dist/
+frontend/dist/
+coverage/
+
